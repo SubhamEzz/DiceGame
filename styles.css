@@ -69,3 +69,22 @@ footer {
   background-image: linear-gradient(to bottom, #fc3cb6, #d9347e);
   text-decoration: none;
 }
+
+
+@media (max-width:1028px) {
+  h1{
+    font-size: 5rem;
+  }
+  p{
+    font-size:3rem;
+  }
+  img{
+    width: 50%;
+  }
+  .btn{
+    margin-left:38.5%;
+  }
+  footer{
+    padding-bottom: 4%;
+  }
+}
