@@ -20,7 +20,7 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
-  font-size:4.5rem;
+  font-size: 4.5rem;
 }
 
 p {
@@ -39,4 +39,33 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+.btn {
+  background: #ba2cde;
+  background-image: -webkit-linear-gradient(top, #ba2cde, #b82b76);
+  background-image: -moz-linear-gradient(top, #ba2cde, #b82b76);
+  background-image: -ms-linear-gradient(top, #ba2cde, #b82b76);
+  background-image: -o-linear-gradient(top, #ba2cde, #b82b76);
+  background-image: linear-gradient(to bottom, #ba2cde, #b82b76);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #d3e8d5;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 46%;
+  margin-top: 5%;
+}
+
+.btn:hover {
+  background: #fc3cb6;
+  background-image: -webkit-linear-gradient(top, #fc3cb6, #d9347e);
+  background-image: -moz-linear-gradient(top, #fc3cb6, #d9347e);
+  background-image: -ms-linear-gradient(top, #fc3cb6, #d9347e);
+  background-image: -o-linear-gradient(top, #fc3cb6, #d9347e);
+  background-image: linear-gradient(to bottom, #fc3cb6, #d9347e);
+  text-decoration: none;
 }
